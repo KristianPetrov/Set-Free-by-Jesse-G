@@ -324,6 +324,31 @@ body {
   line-height: 1.5;
 }
 
+/* Larger neon button for CTAs */
+.neon-button-lg {
+  padding: 14px 22px;
+  font-size: 1.125rem; /* ~text-lg */
+  border-width: 3px;
+  box-shadow: 0 0 16px rgba(255, 20, 147, 0.45), inset 0 0 8px rgba(255, 20, 147, 0.3);
+}
+
+/* Pulsing neon card */
+@keyframes pulseNeon {
+  0%, 100% {
+    box-shadow: inset 0 0 14px rgba(255, 20, 147, 0.25), 0 8px 24px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    box-shadow: inset 0 0 22px rgba(255, 20, 147, 0.4), 0 10px 28px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.badass-cta {
+  background-color: #000000;
+  border: 2px solid #ff1493;
+  border-radius: 20px;
+  animation: pulseNeon 2.4s ease-in-out infinite;
+}
+
 /* Neon form inputs */
 .neon-input {
   width: 100%;

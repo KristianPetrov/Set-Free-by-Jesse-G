@@ -67,15 +67,12 @@ export default function Home() {
       </section>
       {/* Contact Section */}
       <section id="contact" className="w-full mt-24 scroll-offset">
-        <div className="mx-auto max-w-3xl pink-card p-6 sm:p-10">
-          <h3 className="font-brand text-2xl sm:text-3xl font-extrabold neon-gangster">Contact</h3>
-          <p className="mt-3 neon-gangster">Want to collaborate or commission a piece? Reach out.</p>
-          <form className="mt-6 grid gap-4">
-            <input className="neon-input" type="text" name="name" placeholder="Your name" />
-            <input className="neon-input" type="email" name="email" placeholder="Your email" />
-            <textarea className="neon-input" name="message" placeholder="Your message" rows={5} />
-            <button type="submit" className="neon-button self-start">Send</button>
-          </form>
+        <div className="mx-auto max-w-4xl badass-cta p-8 sm:p-12 text-center">
+          <h3 className="font-brand text-3xl sm:text-4xl font-extrabold neon-gangster">Let’s Build Something Holy</h3>
+          <p className="mt-4 neon-gangster">Commission a piece. Collaborate on a wall. Bring the font to your brand. Schedule time with Jesse.</p>
+          <div className="mt-8">
+            <CalScheduleButton className="neon-button neon-button-lg">Schedule Now</CalScheduleButton>
+          </div>
         </div>
       </section>
     </main>

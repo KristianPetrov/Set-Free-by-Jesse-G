@@ -13,7 +13,7 @@ export default function CalScheduleButton({ children = 'Schedule with Jesse G', 
     (async function () {
       const cal = await getCalApi({ namespace: 'jesseg' });
       cal('ui', {
-        theme: 'system',
+        theme: 'dark',
         styles: {
           branding: { brandColor: '#ff1493' },
         },
