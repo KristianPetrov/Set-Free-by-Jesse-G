@@ -19,19 +19,50 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Set Free by Jesse G",
-  description: "Gospel art in crimson and black — sharp, holy, and unapologetically hood.",
-  icons: { icon: "/set-free-jesseg-logo.png" },
+  metadataBase: new URL("https://setfree.jesseg.example"),
+  title: {
+    default: "Set Free by Jesse G",
+    template: "%s | Set Free by Jesse G",
+  },
+  description:
+    "Gospel art in neon color and black — sharp, holy, unapologetically hood. Clean letters, bold scripture, street air.",
+  keywords: [
+    "Set Free",
+    "Jesse G",
+    "gospel art",
+    "street art",
+    "graffiti",
+    "neon art",
+    "hood",
+    "faith",
+  ],
+  icons: {
+    icon: [
+      { rel: "icon", url: "/favicon.ico" },
+      { rel: "icon", url: "/set-free-jesseg-blackyellow-logo.png", type: "image/png" },
+    ],
+    apple: "/set-free-jesseg-blackyellow-logo.png",
+  },
   openGraph: {
+    type: "website",
     title: "Set Free by Jesse G",
-    description: "Gospel art in crimson and black — sharp, holy, and unapologetically hood.",
-    images: ["/set-free-jesseg-logo.png"],
+    description:
+      "Gospel art in neon color and black — sharp, holy, unapologetically hood. Clean letters, bold scripture, street air.",
+    images: [
+      {
+        url: "/set-free-jesseg-cathedral.png",
+        width: 1200,
+        height: 630,
+        alt: "Set Free by Jesse G — Cathedral",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Set Free by Jesse G",
-    description: "Gospel art in crimson and black — sharp, holy, and unapologetically hood.",
-    images: ["/set-free-jesseg-logo.png"],
+    description:
+      "Gospel art in neon color and black — sharp, holy, unapologetically hood. Clean letters, bold scripture, street air.",
+    images: ["/set-free-jesseg-cathedral.png"],
   },
 };
 
