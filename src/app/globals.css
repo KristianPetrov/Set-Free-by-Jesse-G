@@ -374,6 +374,15 @@ body {
 
 .gangster-pink-btn-lg { padding: 14px 22px; font-size: 1.0625rem; border-width: 3px; }
 
+/* Compact variant for small screens */
+@media (max-width: 640px) {
+  .gangster-pink-btn-compact {
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    border-width: 2px;
+  }
+}
+
 /* Neon form inputs */
 .neon-input {
   width: 100%;

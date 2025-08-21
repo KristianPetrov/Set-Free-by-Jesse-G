@@ -47,7 +47,7 @@ export default function Home() {
               priority
             />
           </div>
-          <div className="text-center md:text-left -m-6 sm:-m-10 rounded-[16px] md:border-l md:border-[rgba(255,20,147,0.35)] md:pl-10">
+          <div className="text-center md:text-left -m-6 sm:-m-10 rounded-[16px] md:border-l md:border-[rgba(255,20,147,0.35)] md:pl-10 p-6 sm:p-10 md:p-10">
             <p className="mt-4 text-base sm:text-lg leading-relaxed neon-gangster">
               Born from the crossroad of faith and the streets, Set Free by Jesse G flips culture on its head—redeeming what others throw away. We stack holy truth on hood grit, crafting work that hits heavy and heals harder.
             </p>

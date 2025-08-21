@@ -85,19 +85,19 @@ export default function RootLayout({
               <span className="relative inline-block leading-none">
                 <span className="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold relative">
                   <span aria-hidden className="absolute inset-0 text-[#ff69b4] text-outline-black-2 select-none">
-                    JESSE G
+                    SET FREE GRAFFITI
                   </span>
                   <span className="relative text-[color:var(--yellow)] text-pink-glow">
-                    JESSE G
+                    SET FREE GRAFFITI
                   </span>
                 </span>
               </span>
             </Link>
             <nav className="flex items-center gap-2">
-              <GangsterPinkButton href="/">Home</GangsterPinkButton>
-              <GangsterPinkButton href="#works">Works</GangsterPinkButton>
-              <GangsterPinkButton href="#contact">Contact</GangsterPinkButton>
-              <GangsterPinkButton href="tel:+17143969955">Call (714) 396-9955</GangsterPinkButton>
+              <GangsterPinkButton href="/" className="gangster-pink-btn-compact sm:gangster-pink-btn">Home</GangsterPinkButton>
+              <GangsterPinkButton href="#works" className="gangster-pink-btn-compact sm:gangster-pink-btn">Works</GangsterPinkButton>
+              <GangsterPinkButton href="#contact" className="gangster-pink-btn-compact sm:gangster-pink-btn">Contact</GangsterPinkButton>
+              <GangsterPinkButton href="tel:+17143969955" className="gangster-pink-btn-compact sm:gangster-pink-btn">Call</GangsterPinkButton>
             </nav>
           </div>
         </header>
