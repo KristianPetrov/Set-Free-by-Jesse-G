@@ -82,10 +82,10 @@ export default function RootLayout({
               <span className="relative inline-block leading-none">
                 <span className="font-brand text-2xl sm:text-3xl md:text-4xl font-extrabold relative">
                   <span aria-hidden className="absolute inset-0 text-[#ff69b4] text-outline-black-2 select-none">
-                    SET FREE by JESSE G
+                    JESSE G
                   </span>
                   <span className="relative text-[color:var(--yellow)] text-pink-glow">
-                    SET FREE by JESSE G
+                    JESSE G
                   </span>
                 </span>
               </span>
