@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Baloo_2 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 import Link from "next/link";
 import GangsterPinkButton from "../components/GangsterPinkButton";
@@ -101,6 +102,7 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <Analytics />
         <footer className="mt-16 border-t border-black/20 bg-black/70">
           <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-center gap-3">
             <a href="https://setfreedigitaldisciples.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3">
