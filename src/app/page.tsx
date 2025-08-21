@@ -70,7 +70,7 @@ export default function Home() {
           <h3 className="font-brand text-3xl sm:text-4xl font-extrabold neon-gangster">Let’s Build Something Holy</h3>
           <p className="mt-4 neon-gangster">Commission a piece. Collaborate on a wall. Bring the font to your brand. Schedule time with Jesse.</p>
           <div className="mt-8">
-            <CalScheduleButton className="neon-button neon-button-lg">Schedule Now</CalScheduleButton>
+            <CalScheduleButton className="gangster-pink-btn gangster-pink-btn-lg">Schedule Now</CalScheduleButton>
           </div>
         </div>
       </section>
