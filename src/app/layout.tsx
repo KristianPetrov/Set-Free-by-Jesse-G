@@ -96,6 +96,7 @@ export default function RootLayout({
               <GangsterPinkButton href="/">Home</GangsterPinkButton>
               <GangsterPinkButton href="#works">Works</GangsterPinkButton>
               <GangsterPinkButton href="#contact">Contact</GangsterPinkButton>
+              <GangsterPinkButton href="tel:+17143969955">Call (714) 396-9955</GangsterPinkButton>
             </nav>
           </div>
         </header>

@@ -69,8 +69,9 @@ export default function Home() {
         <div className="mx-auto max-w-4xl badass-cta p-8 sm:p-12 text-center">
           <h3 className="font-brand text-3xl sm:text-4xl font-extrabold neon-gangster">Let’s Build Something Holy</h3>
           <p className="mt-4 neon-gangster">Commission a piece. Collaborate on a wall. Bring the font to your brand. Schedule time with Jesse.</p>
-          <div className="mt-8">
+          <div className="mt-8 flex items-center justify-center gap-3">
             <CalScheduleButton className="gangster-pink-btn gangster-pink-btn-lg">Schedule Now</CalScheduleButton>
+            <a href="tel:+17143969955" className="gangster-pink-btn gangster-pink-btn-lg">Call (714) 396-9955</a>
           </div>
         </div>
       </section>
