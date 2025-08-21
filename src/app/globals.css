@@ -349,6 +349,31 @@ body {
   animation: pulseNeon 2.4s ease-in-out infinite;
 }
 
+/* Gangster pink button (reusable) */
+.gangster-pink-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  background-color: #000000;
+  border: 2px solid #ff1493;
+  color: #ffea00;
+  text-shadow: 0 0 4px #ff1493, 0 0 8px #ff1493;
+  box-shadow: 0 0 12px rgba(255, 20, 147, 0.35), inset 0 0 6px rgba(255, 20, 147, 0.25);
+  transition: all 200ms ease;
+}
+
+.gangster-pink-btn:hover {
+  background-color: #ff1493;
+  color: #000000;
+  border-color: #ff1493;
+  box-shadow: 0 0 18px rgba(255, 20, 147, 0.55), inset 0 0 8px rgba(255, 20, 147, 0.35);
+  transform: translateY(-1px);
+}
+
+.gangster-pink-btn-lg { padding: 14px 22px; font-size: 1.0625rem; border-width: 3px; }
+
 /* Neon form inputs */
 .neon-input {
   width: 100%;

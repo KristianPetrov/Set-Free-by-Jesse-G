@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ImageSwitcher from "../components/ImageSwitcher";
 import CalScheduleButton from "../components/CalScheduleButton";
+import GangsterPinkButton from "../components/GangsterPinkButton";
 
 export default function Home() {
   return (
@@ -26,10 +27,8 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-10 flex items-center justify-center gap-4">
-          <CalScheduleButton className="neon-button">Book a Call</CalScheduleButton>
-          <a href="#about" className="px-5 py-3 rounded-full text-black bg-[linear-gradient(135deg,var(--pink),var(--yellow))] hover:opacity-90 transition-opacity text-sm sm:text-base font-semibold shadow-sm">
-            Learn More
-          </a>
+          <CalScheduleButton className="gangster-pink-btn">Book a Call</CalScheduleButton>
+          <GangsterPinkButton href="#about">Learn More</GangsterPinkButton>
         </div>
       </div>
       {/* About Section */}
@@ -59,8 +58,8 @@ export default function Home() {
               “We don’t chase trends—we rewrite them with scripture and spray.”
             </blockquote>
             <div className="mt-8 flex items-center gap-3">
-              <a href="#contact" className="neon-button">Join the Movement</a>
-              <CalScheduleButton className="neon-button">Schedule with Jesse</CalScheduleButton>
+              <GangsterPinkButton href="#contact">Join the Movement</GangsterPinkButton>
+              <CalScheduleButton className="gangster-pink-btn">Schedule with Jesse</CalScheduleButton>
             </div>
           </div>
         </div>

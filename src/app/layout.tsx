@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Baloo_2 } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import GangsterPinkButton from "../components/GangsterPinkButton";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -91,9 +93,9 @@ export default function RootLayout({
               </span>
             </Link>
             <nav className="flex items-center gap-2">
-              <Link href="/" className="px-3 py-2 rounded-full text-sm font-semibold bg-[linear-gradient(135deg,var(--pink),var(--yellow))] text-black shadow-sm hover:opacity-90 transition-opacity">Home</Link>
-              <Link href="#works" className="px-3 py-2 rounded-full text-sm font-semibold bg-[linear-gradient(135deg,var(--pink),var(--yellow))] text-black shadow-sm hover:opacity-90 transition-opacity">Works</Link>
-              <Link href="#contact" className="px-3 py-2 rounded-full text-sm font-semibold bg-[linear-gradient(135deg,var(--pink),var(--yellow))] text-black shadow-sm hover:opacity-90 transition-opacity">Contact</Link>
+              <GangsterPinkButton href="/">Home</GangsterPinkButton>
+              <GangsterPinkButton href="#works">Works</GangsterPinkButton>
+              <GangsterPinkButton href="#contact">Contact</GangsterPinkButton>
             </nav>
           </div>
         </header>
@@ -101,7 +103,9 @@ export default function RootLayout({
         <footer className="mt-16 border-t border-black/20 bg-black/70">
           <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-center gap-3">
             <a href="https://setfreedigitaldisciples.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3">
-              <img src="/set-free-digital-disciples-logo.png" alt="Set Free Digital Disciples" className="h-6 w-auto" />
+              <Image
+              width={200} height={200}
+               src="/set-free-digital-disciples-logo.png" alt="Set Free Digital Disciples" className="h-36 w-auto" />
               <span className="text-sm text-[color:var(--yellow)] text-pink-glow">Designed by Set Free Digital Disciples</span>
             </a>
           </div>
