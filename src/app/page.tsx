@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ImageSwitcher from "../components/ImageSwitcher";
+import CalScheduleButton from "../components/CalScheduleButton";
 
 export default function Home() {
   return (
@@ -25,11 +26,9 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-10 flex items-center justify-center gap-4">
-          <a href="#" className="px-5 py-3 rounded-full text-black bg-[linear-gradient(135deg,var(--pink),var(--yellow))] hover:opacity-90 transition-opacity text-sm sm:text-base font-semibold shadow-sm">
+          <CalScheduleButton className="neon-button">Book a Call</CalScheduleButton>
+          <a href="#about" className="px-5 py-3 rounded-full text-black bg-[linear-gradient(135deg,var(--pink),var(--yellow))] hover:opacity-90 transition-opacity text-sm sm:text-base font-semibold shadow-sm">
             Learn More
-          </a>
-          <a href="#" className="px-5 py-3 rounded-full text-black bg-[linear-gradient(135deg,var(--pink),var(--yellow))] hover:opacity-90 transition-opacity text-sm sm:text-base font-semibold shadow-sm">
-            View Work
           </a>
         </div>
       </div>
@@ -59,8 +58,9 @@ export default function Home() {
             <blockquote className="pull-quote mt-6 neon-gangster">
               “We don’t chase trends—we rewrite them with scripture and spray.”
             </blockquote>
-            <div className="mt-8">
+            <div className="mt-8 flex items-center gap-3">
               <a href="#contact" className="neon-button">Join the Movement</a>
+              <CalScheduleButton className="neon-button">Schedule with Jesse</CalScheduleButton>
             </div>
           </div>
         </div>
