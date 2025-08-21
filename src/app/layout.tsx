@@ -98,6 +98,14 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <footer className="mt-16 border-t border-black/20 bg-black/70">
+          <div className="mx-auto max-w-6xl px-4 py-6 flex items-center justify-center gap-3">
+            <a href="https://setfreedigitaldisciples.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3">
+              <img src="/set-free-digital-disciples-logo.png" alt="Set Free Digital Disciples" className="h-6 w-auto" />
+              <span className="text-sm text-[color:var(--yellow)] text-pink-glow">Designed by Set Free Digital Disciples</span>
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
