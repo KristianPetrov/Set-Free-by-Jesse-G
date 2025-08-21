@@ -40,16 +40,16 @@ export default function Home() {
             <h2 className="font-brand text-3xl sm:text-4xl md:text-5xl font-extrabold neon-gangster">About Set Free by Jesse G</h2>
             <div className="pink-divider mt-4 w-full"></div>
           </div>
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-xl bg-black">
+          <div className="relative w-full h-[420px] sm:h-[560px] md:h-[720px] overflow-hidden bg-black shadow-xl -m-6 sm:-m-10 rounded-[16px]">
             <Image
               src="/set-free-jesseg-cathedral.png"
               alt="Set Free Cathedral"
               fill
-              className="object-contain object-top"
+              className="object-contain object-center"
               priority
             />
           </div>
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left -m-6 sm:-m-10 rounded-[16px] md:border-l md:border-[rgba(255,20,147,0.35)] md:pl-10">
             <p className="mt-4 text-base sm:text-lg leading-relaxed neon-gangster">
               Born from the crossroad of faith and the streets, Set Free by Jesse G flips culture on its head—redeeming what others throw away. We stack holy truth on hood grit, crafting work that hits heavy and heals harder.
             </p>
